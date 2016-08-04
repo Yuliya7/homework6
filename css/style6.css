@@ -3,7 +3,7 @@
 	padding: 0;
 }
 .wrapper{
-width: auto;
+width: 909px;
 margin: 0 auto;
 }
 .container{
@@ -179,12 +179,13 @@ menu a:hover {
 }
 .left-menu {
 	float: left;
-    margin: 205px 0 50px 220px;
+    /*margin: 205px 0 50px 0;*/
+    margin-top: 205px;
+    width: 183px;
 }
 
 .left-menu ul li {
 	list-style-type: none;
-   /* font-size: 14px;*/
     line-height: 26px;
     margin-left: 33px;
     transition: .2s;
@@ -255,15 +256,17 @@ aside .other_left {
 }
 .right-menu {
 	float: right;
-    margin: 205px 220px 50px 0;
+    /*margin: 205px 0 50px 0;*/
+    margin-top: 205px;
+    width: 183px;
 }
 .right-menu h4 {
     margin-left: 13px;
-    width: 135px;
+    width: 138px;
 }
 .right-menu p {
-    line-height: 25px;
-    margin-left: 8px;
+    line-height: 27px;
+    margin-left: 15px;
     font-family: 'Lucida Sans Unicode', 'Arial';
     font-size: 13px;
     padding-left: 10px;
@@ -276,12 +279,12 @@ aside .other_left {
     margin-top: 3px;
 }
 aside .other_right {
-    margin-top: 10px;
+    margin-top: 6px;
 }
 input[type="submit"]{
 	width: 83px;
     height: 25px;
-    margin: 14px 0 0 20px;
+    margin: 8px 0 0 25px;
     border: 0;
     border-radius: 30px;
     font-family: "Arial";
@@ -302,15 +305,9 @@ input[type="submit"]{
 main {
 	width: 526px;
     height: 630px;
-    margin: 200px 8px 5px 410px;
+    margin: 200px 183px 0 190px;
     border-radius: 3px;
     overflow: hidden;   
-   /* display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    align-content: space-around;*/
-   /* background-image: -webkit-gradient(linear, left top, left bottom, from(#e4e7e8), to(#93a7b0));*/
-   
     background-color: #e4e7e8; /* for non-css3 browsers */ 
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e4e7e8', endColorstr='#93a7b0'); /* для IE6-9 */
     background: -webkit-linear-gradient(top, #e4e7e8, #93a7b0); /* для webkit-браузеров */
@@ -372,7 +369,7 @@ footer {
 	height: 100px;
 	background-color: #213a4d;
 	text-align: center;
-	margin: 0 0 10px 220px;
+	/*margin: 0 0 10px 220px;*/
 }
  footer li {
  	display: inline-block;
